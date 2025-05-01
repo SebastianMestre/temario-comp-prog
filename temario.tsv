@@ -8,7 +8,7 @@ Técnicas de resolución		Monotonía
 Técnicas de resolución		Análisis de elementos especiales (e.g. analizar máximos y mínimos)
 Técnicas de resolución		Coloreos (e.g. cubrir un tablero de ajedrez sin esquinas con piezas de dominó)
 Técnicas de resolución		Principio del palomar (e.g. mayor hueco de menor a mayor en O(N))
-Técnicas de resolución		Inversión del problema ("mirar para atras", e.g. perros de OIA 2019)
+Técnicas de resolución		"Inversión del problema (""mirar para atras"", e.g. perros de OIA 2019)"
 Técnicas de resolución		Separación en componentes independientes
 Grafos		Nociones elementales y definiciones de teoria de grafos
 Grafos		Circuito euleriano, teorema de existencia <=>, algoritmos para construirlo
@@ -42,7 +42,7 @@ Grafos	Floyd-Warshall	Producto de matrices de adyacencia / Potencias de la matri
 Grafos	Floyd-Warshall	Deteccion y tratamiento de ciclos negativos
 Grafos	Reconstruir caminos	Guardando padres
 Grafos	Reconstruir caminos	Chequeando la cuentita de la DP
-Grafos	Reconstruir caminos	"Truquito de dar vuelta origen y destino (y trasponer el grafo si es dirigido) así al recorrer los padres queda el camino al derecho."
+Grafos	Reconstruir caminos	"""Truquito de dar vuelta origen y destino (y trasponer el grafo si es dirigido) así al recorrer los padres queda el camino al derecho."""
 Grafos	Kruskal	Descripción e implementación, con referencia a Union-Find
 Grafos	Kruskal	Relación del Minimum Spanning Tree con la distancia Min-Max.
 Grafos	Kruskal	Aplicación a calcular la distancia min-max todos contra todos en N^2
@@ -64,14 +64,14 @@ Grafos	DAGs	Componentes Fuertemente Conexas
 Grafos	DAGs	Camino/Ciclo euleriano
 Grafos	Árboles	Detección,recorrido.
 Grafos	Árboles	Representación de arbol con raiz: Padre de cada nodo
-Grafos	Árboles	Representación de arbol con raiz:Lista de adyacencia del dirigido "bajando desde la raíz".
+Grafos	Árboles	"Representación de arbol con raiz:Lista de adyacencia del dirigido ""bajando desde la raíz""."
 Grafos	Árboles	Radio, centro y diámetro de un árbol en tiempo lineal.
 Grafos	Grafos planares	Fórmula de Euler
 Grafos	Grafos planares	Los grafos planares son ralos
 Grafos	Grafos planares	Dualidad
 Grafos	Grafos planares	Construir Grafo dual de un grafo planar (dado el embedding)
 Grafos	Grafos planares	Max-clique en grafo planar
-Análisis de complejidad		Entendimiento de la notacion asintotica (La O grande de "O(N)")
+Análisis de complejidad		"Entendimiento de la notacion asintotica (La O grande de ""O(N)"")"
 Análisis de complejidad		Analisis amortizado de complejidad
 Análisis de complejidad		Nocion de P, NP, NP completo, algoritmo polinomial, etc
 Análisis de complejidad		Problemas NP completos conocidos
@@ -126,15 +126,14 @@ Programacion Dinámica		Cálculo del triangulo de pascal
 Programacion Dinámica		Longest common subsequence
 Programacion Dinámica		Edit distance mínima (La común, y permitiendo swaps adyacentes)
 Programacion Dinámica		Producto de matrices con costo minimo
-Programacion Dinámica		"En una matriz yendo de una esquina a la otra solo bajando y para la derecha,
-Programacion Dinámica		maximizar la suma de las casillas visitadas."
+Programacion Dinámica		"""En una matriz yendo de una esquina a la otra solo bajando y para la derecha, maximizar la suma de las casillas visitadas."""
 Programacion Dinámica		Knapsack (Problema de la mochila), Subset Sum
 Programacion Dinámica		Dar vuelto usando una cantidad minima de monedas
 Programacion Dinámica		Optimal Binary Search Tree en O(n^3) y O(n^2) (Knuth optimization)
 Programacion Dinámica		Divide and conquer optimization
 Programacion Dinámica		Dada una string par de {,(,[,],),} dar la minima cantidad de cambios necesarios para que sea valida.
 Programacion Dinámica		Dinámicas con máscaras de bits: TSP y muchas otras.
-Programacion Dinámica		Dinámicas con "frente": Poner fichitas / tubitos en un tablero, y muchas otras
+Programacion Dinámica		"Dinámicas con ""frente"": Poner fichitas / tubitos en un tablero, y muchas otras"
 Matemática y afines		Punto flotante: Conocerlos, saber que existe el error, cuentitas basicas, uso de EPSILON en los if
 Matemática y afines		Potenciacion logaritmica (binary lifting)
 Matemática y afines		Sumas de progresiones aritmeticas y geometricas con binary lifting
@@ -147,7 +146,7 @@ Matemática y afines	Combinatoria	Relacion entre combinatoria y probabilidad
 Matemática y afines	Combinatoria	Principios de la suma y del producto
 Matemática y afines	Combinatoria	Coeficientes binomiales / triangulo de pascal
 Matemática y afines	Combinatoria	Inclusion-exclusion
-Matemática y afines	Combinatoria	Linealidad de la esperanza / técnica "contribution to the sum"
+Matemática y afines	Combinatoria	"Linealidad de la esperanza / técnica ""contribution to the sum"""
 Matemática y afines	Combinatoria	Distribución de la suma de dos variables aleatorias (convolucion)
 Matemática y afines	Combinatoria	Convolucion rápida usando FFT
 Matemática y afines	Combinatoria	Números de Catalan
@@ -197,7 +196,7 @@ Divide and conquer		Dar vuelto usando una cantidad minima de monedas
 Divide and conquer		Ordenamiento de trabajos con distintos tiempos de ejecución para minimizar el tiempo de finalización promedio.
 Divide and conquer		Optimo cubrimiento de intervalo por subintervalos.
 Divide and conquer		Codigos de Huffman
-Divide and conquer		Maxima subsecuencia creciente (resolviendo "mínima partición en subsecuencias no crecientes" + Dilworth)
+Divide and conquer		"Maxima subsecuencia creciente (resolviendo ""mínima partición en subsecuencias no crecientes"" + Dilworth)"
 Backtracking		Fuerza Bruta
 Backtracking		for if for if for if
 Backtracking		Tipica implementacion recursiva cuando no se sabe la cantidad de pasos.
@@ -217,10 +216,10 @@ Teoría de juegos		Grundy Numbers, cálculo de los grundy numbers en tiempo line
 Teoría de lenguajes		Gramatica BNF
 Teoría de lenguajes		Autómatas Finitos
 Teoría de lenguajes		Expresiones Regulares
-Teoría de lenguajes		Parsing Recursivo Descendente predictivo (con "prediccion artesanal")
+Teoría de lenguajes		"Parsing Recursivo Descendente predictivo (con ""prediccion artesanal"")"
 Teoría de lenguajes		Gramaticas libres de contexto
-Interactivos		Problemas estilo "descubrir el secreto"
-Interactivos		Problemas estilo "queries online"
-Interactivos		Problemas estilo "juego contra el juez"
+Interactivos		"Problemas estilo ""descubrir el secreto"""
+Interactivos		"Problemas estilo ""queries online"""
+Interactivos		"Problemas estilo ""juego contra el juez"""
 Interactivos		Heuristica de repartir parejo
 Interactivos		Teoria de la informacion, bits, entropia
