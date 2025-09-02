@@ -14,6 +14,9 @@ varios	usar script para submitear	si	si
 varios	usar script para compilar	si	si
 varios	compilar localmente igual que el juez	si	si
 varios	ver version de C++ que usa el juez	si	si
+varios	ver version de Python que usa el juez	si	si
+varios	ver limite de tamaño de archivo	si	si
+varios	Enfocarse en el interactivo/ouput-only, si lo hay	si	si
 maquina	Operaciones por segundo	si	si
 maquina	Operaciones de bits por segundo	si	si
 maquina	Profundidad de recursion	si	si
