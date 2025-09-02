@@ -1,0 +1,20 @@
+categoria	descripcion	forIOI	forICPC
+veredictos	obtener accepted en algun problema	si	si
+veredictos	obtener wrong answer en algun problema	si	si
+veredictos	obtener time limit en algun problema	si	si
+veredictos	obtener memory limit en algun problema	si	si
+veredictos	obtener runtime error en algun problema	si	si
+veredictos	obtener presentation error en algun problema	no	si
+varios	imprimir	no	si
+varios	enviar clarifications	si	si
+varios	ver si hay documentacion de C++	si	si
+varios	configurar layout del teclado	si	si
+varios	ver donde queda el baño	si	si
+varios	usar script para submitear	si	si
+varios	usar script para compilar	si	si
+varios	compilar localmente igual que el juez	si	si
+varios	ver version de C++ que usa el juez	si	si
+maquina	Operaciones por segundo	si	si
+maquina	Operaciones de bits por segundo	si	si
+maquina	Profundidad de recursion	si	si
+maquina	Ver si hay int128 (`__int128` o `__int128_t`)	si	si
