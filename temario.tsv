@@ -42,7 +42,6 @@ Grafos	Floyd-Warshall	Producto de matrices de adyacencia / Potencias de la matri
 Grafos	Floyd-Warshall	Deteccion y tratamiento de ciclos negativos
 Grafos	Reconstruir caminos	Guardando padres
 Grafos	Reconstruir caminos	Chequeando la cuentita de la DP
-Grafos	Reconstruir caminos	"""Truquito de dar vuelta origen y destino (y trasponer el grafo si es dirigido) así al recorrer los padres queda el camino al derecho."""
 Grafos	Kruskal	Descripción e implementación, con referencia a Union-Find
 Grafos	Kruskal	Relación del Minimum Spanning Tree con la distancia Min-Max.
 Grafos	Kruskal	Aplicación a calcular la distancia min-max todos contra todos en N^2
@@ -74,7 +73,7 @@ Grafos	Grafos planares	Max-clique en grafo planar
 Análisis de complejidad		"Entendimiento de la notacion asintotica (La O grande de ""O(N)"")"
 Análisis de complejidad		Analisis amortizado de complejidad
 Análisis de complejidad		Nocion de P, NP, NP completo, algoritmo polinomial, etc
-Análisis de complejidad		Problemas NP completos conocidos
+Análisis de complejidad		Problemas NP completos conocidos (Camino hamiltoniano, TSP, Maximum independent set, Minimum dominating set, subset sum, etc.)
 Análisis de complejidad		Problemas que no se sabe que sean P ni NP completo (Factorización entera, logaritmo discreto, isomorfismo de grafos)
 Ordenamiento		Busqueda lineal y busqueda binaria (con LA RECETA)
 Ordenamiento		Counting Sort
@@ -134,34 +133,37 @@ Programacion Dinámica		Divide and conquer optimization
 Programacion Dinámica		Dada una string par de {,(,[,],),} dar la minima cantidad de cambios necesarios para que sea valida.
 Programacion Dinámica		Dinámicas con máscaras de bits: TSP y muchas otras.
 Programacion Dinámica		"Dinámicas con ""frente"": Poner fichitas / tubitos en un tablero, y muchas otras"
-Matemática y afines		Punto flotante: Conocerlos, saber que existe el error, cuentitas basicas, uso de EPSILON en los if
-Matemática y afines		Potenciacion logaritmica (binary lifting)
-Matemática y afines		Sumas de progresiones aritmeticas y geometricas con binary lifting
-Matemática y afines		Recurrencias lineales
-Matemática y afines		Sistemas de ecuaciones lineales
-Matemática y afines		Truquito para matrices banda. Casos especiales de interes: Bidiagonales, Tridiagonales, Adyacencias en una grilla rectangular.
-Matemática y afines		Calculo de determinantes, matriz inversa (algoritmo de Gauss)
-Matemática y afines		Operaciones aritmeticas con enteros de longitud arbitraria
-Matemática y afines	Combinatoria	Relacion entre combinatoria y probabilidad
-Matemática y afines	Combinatoria	Principios de la suma y del producto
-Matemática y afines	Combinatoria	Coeficientes binomiales / triangulo de pascal
-Matemática y afines	Combinatoria	Inclusion-exclusion
-Matemática y afines	Combinatoria	"Linealidad de la esperanza / técnica ""contribution to the sum"""
-Matemática y afines	Combinatoria	Distribución de la suma de dos variables aleatorias (convolucion)
-Matemática y afines	Combinatoria	Convolucion rápida usando FFT
-Matemática y afines	Combinatoria	Números de Catalan
-Matemática y afines	Combinatoria	Cadenas de Markov
-Matemática y afines	Combinatoria	Young Tableaux
-Teoría de números		Teorema fundamental de la aritmetica
-Teoría de números		Aritmetica modular
-Teoría de números		MCD (Algoritmo de euclides)
-Teoría de números		Inverso Modular (Con euclides extendido o con pequeño teorema de Fermat)
-Teoría de números		Teorema Chino del Resto
-Teoría de números		Producto de matrices
-Teoría de números		Criba de eratostenes
-Teoría de números		Chequeo de primalidad raiz(N)
-Teoría de números		Chequeo de primalidad eficiente probabilistico
-Teoría de números		Funciones multiplicativas, función de Mobius
+Matemática		Punto flotante: Conocerlos, saber que existe el error, cuentitas basicas, uso de EPSILON en los if
+Matemática		Operaciones aritmeticas con enteros de longitud arbitraria
+Matemática	Álgebra	Potenciacion logaritmica (binary lifting)
+Matemática	Álgebra	Sumas de progresiones aritmeticas y geometricas con binary lifting
+Matemática	Álgebra	Recurrencias lineales
+Matemática	Álgebra	Sistemas de ecuaciones lineales (algoritmo de Gauss)
+Matemática	Álgebra	Calculo de determinantes, matriz inversa (algoritmo de Gauss)
+Matemática	Álgebra	Funciones generatrices
+Matemática	Combinatoria y Probabilidad	Relacion entre combinatoria y probabilidad
+Matemática	Combinatoria y Probabilidad	Principios de la suma y del producto
+Matemática	Combinatoria y Probabilidad	Coeficientes binomiales / triangulo de pascal
+Matemática	Combinatoria y Probabilidad	Bolitas y palitos
+Matemática	Combinatoria y Probabilidad	Inclusion-exclusion
+Matemática	Combinatoria y Probabilidad	"Linealidad de la esperanza / técnica ""contribution to the sum"""
+Matemática	Combinatoria y Probabilidad	Distribución de la suma de dos variables aleatorias (convolucion)
+Matemática	Combinatoria y Probabilidad	Convolucion rápida usando FFT
+Matemática	Combinatoria y Probabilidad	Números de Catalan
+Matemática	Combinatoria y Probabilidad	Cadenas de Markov
+Matemática	Combinatoria y Probabilidad	Young Tableaux
+Matemática	Teoría de números	Teorema fundamental de la aritmetica
+Matemática	Teoría de números	Aritmetica modular
+Matemática	Teoría de números	MCD (Algoritmo de euclides)
+Matemática	Teoría de números	Inverso Modular (Con euclides extendido o con pequeño teorema de Fermat)
+Matemática	Teoría de números	Teorema Chino del Resto
+Matemática	Teoría de números	Producto de matrices
+Matemática	Teoría de números	Chequeo de primalidad raiz(N)
+Matemática	Teoría de números	Criba de eratostenes
+Matemática	Teoría de números	Chequeo de primalidad eficiente probabilistico (Miller-Rabin)
+Matemática	Teoría de números	Orden de un elemento en (N_p,*), raices primitivas
+Matemática	Teoría de números	Funcion phi de Euler
+Matemática	Teoría de números	Funciones multiplicativas, función de Mobius
 Geometria		Vectores (Suma, Resta)
 Geometria		Producto escalar
 Geometria		Norma, distancia euclidea (pitagoras)
@@ -190,7 +192,6 @@ Divide and conquer		Elemento mayoria en n lg n usando *solamente* comparaciones 
 Divide and conquer		Par de puntos mas cercano en O(n lg n)
 Divide and conquer		Strassen
 Divide and conquer		Karatsuba
-Divide and conquer		Armado de fixtures (aunque hay una alternativa constructiva muy elegante y simple)
 Divide and conquer		Greedies
 Divide and conquer		Dar vuelto usando una cantidad minima de monedas
 Divide and conquer		Ordenamiento de trabajos con distintos tiempos de ejecución para minimizar el tiempo de finalización promedio.
@@ -198,13 +199,15 @@ Divide and conquer		Optimo cubrimiento de intervalo por subintervalos.
 Divide and conquer		Codigos de Huffman
 Divide and conquer		"Maxima subsecuencia creciente (resolviendo ""mínima partición en subsecuencias no crecientes"" + Dilworth)"
 Backtracking		Fuerza Bruta
-Backtracking		for if for if for if
-Backtracking		Tipica implementacion recursiva cuando no se sabe la cantidad de pasos.
-Backtracking		Branch and bound
-Backtracking		Problema de las n reinas.
+Backtracking		Fuerza Bruta sobre permutaciones (next_permutation)
+Backtracking		Backtracking con cantidad de pasos fija (for if for if for if)
+Backtracking		Backtracking con cantidad de pasos variable (recursiva)
+Backtracking		Backtracking sobre permutaciones (recursiva)
+Backtracking		Backtracking sobre subconjuntos (recursiva)
+Backtracking		"Optimización ""Branch & Bound"""
+Backtracking		Problema de las N reinas
 Backtracking		Cubrir un tablero con fichitas. (e.g. Codeforces 143E)
-Backtracking		Sudoku.
-Backtracking		Problemas NP Completos: Maximum independent set, Minimum dominating set, subset sum, etc.
+Backtracking		Sudoku
 Teoría de juegos		Propiedad Universal de las posiciones P/G
 Teoría de juegos		Cálculo con DP de posiciones ganadoras y perdedoras.
 Teoría de juegos		Algoritmo minimax para juegos de suma cero de informacion perfecta.
@@ -223,3 +226,13 @@ Interactivos		"Problemas estilo ""queries online"""
 Interactivos		"Problemas estilo ""juego contra el juez"""
 Interactivos		Heuristica de repartir parejo
 Interactivos		Teoria de la informacion, bits, entropia
+Permutaciones		Composicion
+Permutaciones		Representacion de cosas como permutaciones (e.g. Rubik, o cualquier grupo)
+Permutaciones		Transposiciones (swaps)
+Permutaciones		Inversiones
+Permutaciones		Contar inversiones en O(N log N) (con mergesort o con Fenwick tree)
+Permutaciones		Ciclos
+Permutaciones		Paridad (Mediante inversiones y mediante ciclos)
+Truquitos	Estructuras de datos	Sumas de prefijos de cadenas de paréntesis balanceadas
+Truquitos	Grafos	Al Reconstruir caminos, dar vuelta origen y destino (y trasponer el grafo si es dirigido) así al recorrer los padres queda el camino al derecho.
+Truquitos	Matemática	Gauss rápido para matrices banda: Bidiagonales, Tridiagonales, Adyacencias en una grilla rectangular.
